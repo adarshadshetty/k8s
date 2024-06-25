@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployhttpd
-spec: 
+  name: deployreactapp
+spec:
   replicas: 2
   selector:
-    matchLabels: 
-      app: httpdserver
-  template: 
-    metadata: 
+    matchLabels:
+      app: myreactapp
+  template:
+    metadata:
       name: testpod1
-      labels: 
-        app: httpdserver
-    spec: 
+      labels:
+        app: myreactapp
+    spec:
       containers:
         - name: c00
-          image: httpd:latest
-          ports: 
-           - containerPort: 80
+          image: shettyadarsha/my-react-app:latest
+          ports:
+           - containerPort: 3000
