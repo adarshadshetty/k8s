@@ -6,7 +6,7 @@
 
 ## Step 2 Deploy Sample App
 ```
-##### git clone https://github.com/ashokitschool/kubernetes_manifest_yml_files.git
+ git clone https://github.com/ashokitschool/kubernetes_manifest_yml_files.git
 ```
 ##### Here refer HPA file 
 ##### $ kubectl apply -f deploy.yaml
