@@ -17,3 +17,5 @@ $ kubectl get events
 $ kubectl top pods 
 
 $ kubectl get hpa
+
+$ kubectl get hpa -w 
