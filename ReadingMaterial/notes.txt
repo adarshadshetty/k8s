@@ -7,4 +7,13 @@ $ kubectl get replicaset
 $ kubectl get svc
 $ kubectl create deployment NAME --image= image --[COMMAND] [args....] [options] 
 $ kubectl create deployment nginx-depl --image=nginx
-$ kubectl
+$ kubectl get deployment 
+$ kubectl get relicaset
+$ kubectl edit deployment nginx-depl , edit image version
+
+
+Debugging Pods
+$ kubectl logs [podname]
+$ kubectl create deployment mongo-deployment --image=mongo
+$ kubectl describe pod [pod-name]
+$ 
