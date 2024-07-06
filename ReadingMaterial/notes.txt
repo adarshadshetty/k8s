@@ -1,0 +1,10 @@
+video-5 
+----------------
+$ kubectl get nodes
+$ kubectl get pods
+$ kubectl get deployment
+$ kubectl get replicaset
+$ kubectl get svc
+$ kubectl create deployment NAME --image= image --[COMMAND] [args....] [options] 
+$ kubectl create deployment nginx-depl --image=nginx
+$ kubectl
