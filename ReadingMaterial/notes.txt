@@ -27,3 +27,24 @@ $ kubectl delete deployment [deploymentname]
 $ kubectl get replicaset
 $ kubectl delete deployement nginx-depl
 $ kubectl apply -f [filename] 
+
+
+
+Video-6
+-------------------------------------------------------------
+3 Part 
+1.Deployment part
+2.Service Part
+3.Status of deployment = this come from etcd , it hold info about the k8s components
+
+Always validate the YAML file to check the indentation
+It's good practice to store the YAML file with the code
+
+# Layers of Abstraction 
+1.Deployment
+2.ReplicaSet
+3.Pods
+4.Container
+
+--> Connecting components (Labels & Selectors & Ports)
+
