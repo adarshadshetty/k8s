@@ -20,3 +20,14 @@ kubectl apply -f mongoexpressdeploy.yaml
 ```
 kubectl apply -f mongoexpressSVC.yaml
 ```
+
+```
+kubectl service mongo-express-service 
+```
+
+##### or 
+
+```
+minikube service mongo-express-service 
+```
+
