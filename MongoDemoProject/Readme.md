@@ -16,3 +16,7 @@ kubectl apply -f mongosecret.yaml
 ```
 kubectl apply -f mongoexpressdeploy.yaml
 ```
+
+```
+kubectl apply -f mongoexpressSVC.yaml
+```
