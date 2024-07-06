@@ -1,5 +1,5 @@
 video-5 
-----------------
+--------------------------------------------------------
 $ kubectl get nodes
 $ kubectl get pods
 $ kubectl get deployment
@@ -16,4 +16,14 @@ Debugging Pods
 $ kubectl logs [podname]
 $ kubectl create deployment mongo-deployment --image=mongo
 $ kubectl describe pod [pod-name]
-$ 
+$ kubectl exec -it [podname] --bin/bash
+
+
+Delete Deployement Apply Configuration File
+--------------------------------------------------------------
+$ kubectl delete [podname] 
+$ kubectl delete all --all
+$ kubectl delete deployment [deploymentname]
+$ kubectl get replicaset
+$ kubectl delete deployement nginx-depl
+$ kubectl apply -f [filename] 
