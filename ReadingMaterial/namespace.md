@@ -58,3 +58,16 @@ Access and resource limits on NameSpace \
 
 
 
+-> Volume and node , you cannot put them in a ns \
+-> You can list the resources that are not bound to a ns using 
+```
+kubectl api-resources --namespaced=false
+```
+->You can list the resources that are bound to a ns using 
+```
+kubectl api-resources --namespaced=true
+```
+
+
+
+_
