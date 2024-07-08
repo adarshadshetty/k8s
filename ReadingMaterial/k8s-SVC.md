@@ -40,3 +40,16 @@ kubectl get endpoints
 
 
 # Multi-Port Services
+-> Use of name attribute in the service 
+![Screenshot 2024-07-08 182429](https://github.com/adarshadshetty/k8s/assets/136900544/d2bad965-d71e-404b-82b2-ea58cb9fb7f7)
+![Screenshot 2024-07-08 182451](https://github.com/adarshadshetty/k8s/assets/136900544/6c91a956-2007-4f5f-ada3-95e1d9e43b3d)
+
+# Headless Services
+
+
+
+
+
+
+
+
