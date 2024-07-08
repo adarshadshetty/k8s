@@ -49,8 +49,10 @@ metadata:
 ```
 
 #### What are ns why this ns is needed
-Group the resources into namespaces like Database , Monitoring , Elastic Stack , Nginx-Ingress  namespace /
-Do not use the ns for smaller project , use ns if you have multiple teams in a same application , resources sharing : staging and development /
+Group the resources into namespaces like Database , Monitoring , Elastic Stack , Nginx-Ingress  namespace \
+Do not use the ns for smaller project \
+use ns if you have multiple teams in a same application \
+resources sharing : staging and development \
 Use the ns when your are using the blue-green deployment \
 Access and resource limits on NameSpace \
 
