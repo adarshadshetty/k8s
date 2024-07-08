@@ -19,6 +19,7 @@ Load Balancer service\
 #### Differences between them and when to use which one ?
 
 # ClusterIP Service 
+-> ClusterIP Ip are acessible only within the service 
 -> Default service 
 ![Screenshot 2024-07-08 181443](https://github.com/adarshadshetty/k8s/assets/136900544/28274291-60bf-4139-8314-89f26178e573)
 
@@ -55,10 +56,17 @@ kubectl get endpoints
 ![Screenshot 2024-07-08 183154](https://github.com/adarshadshetty/k8s/assets/136900544/e9184bce-f24b-4115-b47b-bdc02f602b15)
 ![Screenshot 2024-07-08 183324](https://github.com/adarshadshetty/k8s/assets/136900544/3edf3459-394f-41aa-b90f-cfb9c8c9b029)
 
+# NodePort Services 
+NodePort Range => 30000 - 32767.
+Here ClusterIP Service is automatically created.
+NodePort Service is not secure , external client may access the SVC
+![Screenshot 2024-07-08 191218](https://github.com/adarshadshetty/k8s/assets/136900544/6576d63b-4838-4f92-9901-aadcab59a435)
+![Screenshot 2024-07-08 193518](https://github.com/adarshadshetty/k8s/assets/136900544/4c10b363-620e-4817-8519-7a9d57dfecae)
 
 
+# LoadBalancer Service
+#### ->Beacome Accessible exteenally through cloud providers LB
+#### -> NodePort and ClusterIP service are created automatically !
 
-
-
-
-
+![Screenshot 2024-07-08 193820](https://github.com/adarshadshetty/k8s/assets/136900544/5ea01c64-d100-4139-998a-0808b88fc734)
+![Screenshot 2024-07-08 193833](https://github.com/adarshadshetty/k8s/assets/136900544/150bdd1e-a84b-424a-a167-2b7421a5b14f)
