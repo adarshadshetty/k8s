@@ -70,3 +70,7 @@ NodePort Service is not secure , external client may access the SVC
 
 ![Screenshot 2024-07-08 193820](https://github.com/adarshadshetty/k8s/assets/136900544/5ea01c64-d100-4139-998a-0808b88fc734)
 ![Screenshot 2024-07-08 193833](https://github.com/adarshadshetty/k8s/assets/136900544/150bdd1e-a84b-424a-a167-2b7421a5b14f)
+
+
+# Wrap-Up
+![Screenshot 2024-07-08 194013](https://github.com/adarshadshetty/k8s/assets/136900544/b118b3e8-eac3-47aa-bb26-13abde27bbae)
