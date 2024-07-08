@@ -70,4 +70,32 @@ kubectl api-resources --namespaced=true
 
 
 
-_
+```
+kubectl apply -f mongo-confimap.yaml --namespace = my-namespace
+```
+Another  way is inside the configuration file itself
+
+```
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodb-configmap
+  namespace: my-namespace
+data:
+  database_url: mongodb-service.database
+```
+#### Change active namespace
+```
+kubectl config set-context --current --namespace=my-namesapce
+```
+
+You can also use kubens  , add this to cli
+
+For MacOs
+```
+brew install kubectx
+```
+For Windows
+```
+sudo snap install kubectx
+```
