@@ -38,9 +38,6 @@ Install Ingress Controller from many third-party implementations
 
 
 #
-![Screenshot 2024-07-08 202200](https://github.com/adarshadshetty/k8s/assets/136900544/420b113c-2ec6-4ac8-a414-1720fb6c55b4)
-
-#
 ![Screenshot 2024-07-08 202210](https://github.com/adarshadshetty/k8s/assets/136900544/474f1338-390d-4131-85d2-4797a81dc30e)
 
 #
