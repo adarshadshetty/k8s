@@ -45,6 +45,15 @@ kubectl get endpoints
 ![Screenshot 2024-07-08 182451](https://github.com/adarshadshetty/k8s/assets/136900544/6c91a956-2007-4f5f-ada3-95e1d9e43b3d)
 
 # Headless Services
+-> Client wants to communicate with 1 specific pod directly
+-> Pods want to talk directly with a specific Pod
+-> Not randomly selected
+-> Use Case : Stateful applications like databases like mysql , mongodb , elastic stack 
+
+![Screenshot 2024-07-08 183033](https://github.com/adarshadshetty/k8s/assets/136900544/a60aa89e-c6d8-465b-af0a-509295796b2d)
+![Screenshot 2024-07-08 183134](https://github.com/adarshadshetty/k8s/assets/136900544/4577ad93-ba7e-4334-9138-2ea5453e4584)
+![Screenshot 2024-07-08 183154](https://github.com/adarshadshetty/k8s/assets/136900544/e9184bce-f24b-4115-b47b-bdc02f602b15)
+![Screenshot 2024-07-08 183324](https://github.com/adarshadshetty/k8s/assets/136900544/3edf3459-394f-41aa-b90f-cfb9c8c9b029)
 
 
 
