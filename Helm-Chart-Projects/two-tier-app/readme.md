@@ -62,8 +62,8 @@ show tables;
 
 
 ```
-localhost 30007
+localhost:30007
 ```
 ![Screenshot 2024-08-02 092546](https://github.com/user-attachments/assets/026d9edf-368b-4551-9031-575f8f2ba57f)
 
-
+#                                                                                                                         END
