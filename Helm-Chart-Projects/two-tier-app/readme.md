@@ -46,7 +46,7 @@ kubectl get deployment
 
 
 ```
-helm list
+ls
 ```
 ![Screenshot 2024-08-02 092047](https://github.com/user-attachments/assets/6018ee8e-3bc0-491f-a209-cb57a10a767c)
 
